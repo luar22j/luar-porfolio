@@ -31,7 +31,7 @@ export const SocialMedia = () => {
   );
 
   return (
-    <div className="flex h-[100px] sticky py-5 items-center justify-between gap-5">
+    <div className="flex h-[100px] sticky py-5 items-center justify-center md:justify-start gap-5">
       <ul className="flex space-x-7">
         {Object.entries(socialMediaData).map(([key, value], index) => {
           const delay = `${index * 100}ms`;

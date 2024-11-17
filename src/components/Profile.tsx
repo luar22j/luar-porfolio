@@ -3,7 +3,7 @@ import "../assets/css/portal.css";
 export const Profile = () => {
   return (
     <div className="flex flex-col sm:gap-5 gap-10">
-      <div className="flex sm:items-center items-start sm:flex-row flex-col flex-wrap justify-between sm:gap-[100px] gap-10">
+      <div className="flex items-center sm:flex-row flex-col flex-wrap justify-between sm:gap-[100px] gap-10">
         <h1
           className="flex order-2 sm:order-1 profile-animation text-gray-100 drop-shadow-[0_2px_10px_#4723a5] hover:drop-shadow-[0_2px_15px_#4723a5] text-5xl md:text-7xl font-bold cursor-pointer transition-all"
           style={{ "--delay": "0ms" } as React.CSSProperties}
@@ -26,7 +26,7 @@ export const Profile = () => {
           />
         </div>
       </div>
-      <div className="md:text-justify flex flex-col gap-5">
+      <div className="md:text-justify justify-center md:justify-start items-center md:items-start flex text-center flex-col gap-5">
         <h2
           className="profile-animation text-gray-300 md:text-3xl text-2xl font-bold transition-all"
           style={{ "--delay": "200ms" } as React.CSSProperties}
