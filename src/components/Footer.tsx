@@ -29,7 +29,7 @@ export const Footer = () => {
 
   return (
     <div ref={footerRef} className="footer-hidden">
-      <p className="text-animation text-white text-justify drop-shadow-lg">
+      <p className="text-animation text-white text-center drop-shadow-lg">
         Designed by Luar. Built with React and Tailwind CSS.
       </p>
     </div>
