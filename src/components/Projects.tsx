@@ -22,7 +22,10 @@ export const Project = () => {
           }
         });
       },
-      { threshold: 0.2 }
+      {
+        threshold: 0.1,
+        rootMargin: "50px",
+      }
     );
 
     if (projectsRef.current) {

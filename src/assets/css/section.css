@@ -66,3 +66,14 @@
     transform: translateY(0);
   }
 }
+
+.projects-hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-in-out;
+}
+
+.projects-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
